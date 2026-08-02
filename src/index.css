@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-vibes: "Great Vibes", cursive;
+  --font-montserrat: "Montserrat", sans-serif;
+  --color-vino: #5B1021;
+  --color-vino-light: #7B172D;
+  --color-vino-dark: #3A0A15;
+  --color-gold: #D4AF37;
+  --color-gold-light: #F9E596;
+}
+
+body {
+  background-color: var(--color-vino-dark);
+  color: var(--color-gold-light);
+  font-family: var(--font-montserrat);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom hide scrollbar for elegance */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
